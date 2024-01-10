@@ -12,7 +12,7 @@ const Card = ({ img_src, title, by, time }) => {
       />
       <div className="m-4">
         <span className="font-bold">{title}</span>
-        <span className="block text-gray-500 text-sm">Recipe by {by}</span>
+        <span className="block text-gray-500 text-sm">{by}</span>
       </div>
       <div className="badge">
         <svg
